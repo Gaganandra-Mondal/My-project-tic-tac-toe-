@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image:linear-gradient(90deg ,rgb(255, 138, 158) 0%,rgb(255, 212, 158) 90%);
+}
+#game{
+
+    text-align: center;
+}
+.item-box{
+    display: flex;
+    flex-flow: row wrap;
+    border: 0.5px solid black;
+    border-radius: 5%;
+    height: 304px;
+    width: 304px;
+    /* overflow: hidden; */
+    background-color: black;
+}
+.cell{
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 5%;
+    height: 100px;
+    width: 100px;
+    background-image:linear-gradient(135deg ,rgb(168, 168, 202) 0%,rgb(187, 255, 249) 90%);
+    box-shadow: inset 1px -5px 4px black;
+    cursor: pointer;
+    transform: scale(1.05);
+    font-size: 50px;
+}
+.cell:hover{
+    background-image:linear-gradient(135deg ,rgb(186, 186, 211) 0%,rgb(205, 253, 249) 90%);
+    /* transform: scale(1,1); */
+    border-radius: 5%;
+}
+#message {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#reset-button {
+    border: 0px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px black;
+    background-image: linear-gradient(45deg , rgba(255, 166, 0, 0.406) 0%,rgba(0, 0, 255, 0.434) 90%);
+    font-size: 1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#reset-botton:hover{
+    width: 100px;
+    height: 100px;
+}
