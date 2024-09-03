@@ -29,12 +29,12 @@ buttons.forEach((box)=>{
     box.addEventListener("click",()=>{
         console.log("button was clicked");
         if(turnx){
-            box.innerText="x";
+            box.innerText="X";
             box.style.color="red";
             turnx=false;
         }
         else{
-            box.innerText="o";
+            box.innerText="O";
             box.style.color="green";
             turnx=true;
         }
