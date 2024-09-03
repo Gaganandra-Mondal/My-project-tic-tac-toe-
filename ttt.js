@@ -57,7 +57,7 @@ const enable = ()=>{
     });
 };
 const showwinner = (win)=>{
-    msg.innerText=`winner is ${win}`;
+    msg.innerText=`Winner is ${win}`;
     // msg.style.display="block";
     disabled();
 };
